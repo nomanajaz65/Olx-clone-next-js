@@ -1,0 +1,150 @@
+.logo {
+    max-height: 14%;
+    margin-bottom: 5%;
+    margin-top: 2rem;
+}
+.div h5 {
+    color: rgb(1, 38, 42);
+}
+.div h3 {
+    color: rgb(1, 38, 42);
+}
+.div h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+}
+.div h5 {
+    font-weight: 400;
+    font-size: 0.9rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div h6 {
+    color: black;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.div label {
+    color: rgb(1, 38, 42);
+    margin-top:1rem;
+    font-size: 1.6rem;
+}
+.div input {
+    color: white;
+}
+.div .btn {
+    color: rgb(1, 38, 42);
+    width: 5rem;
+    height: 1.7rem;
+    font-size: 90%;
+    font-weight: 600;
+    background: whitesmoke;
+    border: 2px solid rgb(1, 38, 42);
+    border-radius: 0.4rem;
+    margin-top: 0.9rem;
+    margin-right: 50%;
+}
+
+.div .btn:hover {
+    cursor: pointer;
+}
+
+.div a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.div a:hover {
+    cursor: pointer;
+}
+
+.div p {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 2.1rem;
+}
+
+.div p a {
+    color: blue;
+    font-size: 90%;
+}
+
+.div input {
+    width: 16.4rem;
+    height: 2.4rem;
+    background: rgb(8, 67, 73);
+    border-radius: 0.3rem;
+    margin-top: 4%;
+}
+
+.div input::placeholder {
+    color: whitesmoke;
+}
+
+.backdrop h1 {
+    color: black;
+    position: absolute;
+}
+.Xcontainer{
+    position: absolute;
+    margin-left: 82%;
+    top: 12.5px;
+    height: 33px;
+    width: 33px;
+}
+.Xcontainer:hover{
+    cursor: pointer;
+}
+.X {
+    position: absolute;
+    /* height: 30px; */
+    /* this can be anything */
+    /* width: 30px; */
+    width: 10%;
+    /* ...but maintain 1:1 aspect ratio */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-bottom: 430px; */
+    margin-bottom: 148%;
+    /* margin-left: 250px; */
+    margin-left: 82%;
+    top: 30px;
+}
+
+.X::before,
+.X::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    /* height: 2px; */
+    height: 0.1rem;
+    /* cross thickness */
+    background-color: rgb(51, 58, 53);
+}
+.X::before {
+    transform: rotate(45deg);
+}
+.X::after {
+    transform: rotate(-45deg);
+}
+
+.X:hover {
+    cursor: pointer;
+}
+
+.warning {
+    position: absolute;
+    margin-top: 125%;
+    color: red;
+    font-weight: 600;
+    text-decoration: underline;
+}

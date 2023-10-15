@@ -1,0 +1,65 @@
+export const clickedStyle = {
+  border: "solid #002f34",
+  borderWidth: "0 0.1rem 0.1rem 0",
+  display: "inline-block",
+  padding: "0.25rem",
+  transform: "rotate(225deg)",
+  webkitTransform: "rotate(225deg)",
+  marginBottom: "10%",
+  marginLeft: "0.4vw",
+};
+export const onClickDropdownCardStyle = {
+  display: "none",
+};
+export const unClickedStyle = {
+  border: "solid #002f34",
+  borderWidth: "0 0.1rem 0.1rem 0",
+  display: "inline-block",
+  padding: "0.25rem",
+  transform: "rotate(225deg)",
+  webkitTransform: "rotate(225deg)",
+  marginBottom: "10%",
+  marginLeft: "0.4vw",
+  transform: "rotate(405deg)",
+  transition: "transform 0.1s linear",
+};
+export const modalStyleArray = {
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  backgroundColor: "rgb(56, 53, 53, 0.8)",
+  backdropFilter: "blur(1px) saturate(200%)",
+  height: "590%",
+  width: "100%",
+  position: "absolute",
+  top: "0%",
+  left: "0%",
+  zIndex: "18",
+};
+export const loginDropdownCardStyleArray = {
+  height: "294%",
+  width: "18.5%",
+  background: "rgb(255, 255, 255)",
+  display: "block",
+  boxShadow: "0px 0px 3px 3px #eeeeee",
+  zIndex: "1",
+  position: "absolute",
+  marginLeft: "63%",
+  marginTop: "7.2%",
+};
+export const setCStyleArray = {
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  backgroundColor: "rgb(254, 254, 255) ",
+  backdropFilter: "blur(1px) saturate(200%)",
+  height: "81%",
+  width: "24.5%",
+  position: "absolute",
+  top: "10%",
+  left: "38%",
+  borderRadius: "0.5rem",
+  zIndex: "19",
+};

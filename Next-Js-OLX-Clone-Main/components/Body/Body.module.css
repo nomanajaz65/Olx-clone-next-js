@@ -1,0 +1,36 @@
+.body {
+    position: absolute;
+    top: 33rem;
+    width: 100%;
+    left: 0;
+}
+.showMore {
+    background: rgb(255, 255, 255);
+    margin-left: 48%;
+    width: 6rem;
+    height: 3.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30rem;
+}
+.showMoreBtn {
+    border: 1.5px solid black;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    height: 3rem;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+.showMoreBtn:hover {
+    cursor: pointer;
+    border: 3.5px solid black;
+}
+.footerBanner {
+    position: absolute;
+    max-width: 100%;
+    bottom: 15.3rem;
+}
+.title {
+    color: rgb(34, 32, 32);
+}

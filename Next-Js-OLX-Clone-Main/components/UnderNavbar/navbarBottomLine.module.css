@@ -1,0 +1,154 @@
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropbtn {
+    position: absolute;
+    background: none;
+    border: none;
+    left: 8vw;
+    top: 8.9rem;
+    text-transform: uppercase;
+    color: #002f34;
+    font-weight: 550;
+    font-size: 16px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 12rem;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    cursor: pointer;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 78rem;
+    box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 8rem;
+    top: 10.2rem;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+.column {
+    top: 0;
+    bottom: 0;
+    float: left;
+    width: 20.7rem;
+    padding: 0.3rem;
+    background-color: rgb(255, 255, 255);
+    margin-left: 2rem;
+}
+
+.column h3 {
+    color: rgb(56, 54, 54);
+    font-weight: 600;
+    font-size: 17.9px;
+    margin-left: 2rem;
+    margin-bottom: 1.4rem;
+}
+
+.column h3:hover {
+    cursor: pointer;
+    color: rgb(43, 108, 84);
+}
+
+.column a {
+    float: none;
+    color: rgb(34, 32, 32);
+    margin-top: 1rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.column a:hover {
+    color: rgb(34, 204, 142);
+}
+
+.row {
+    margin-top: 2rem;
+    margin-bottom: 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.arrowDown {
+    border: solid #002f34;
+    border-width: 0 0.11rem 0.11rem 0;
+    display: inline-block;
+    padding: 3.2%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+
+.dropdown:hover .arrowDown {
+    transition: 300ms ease all;
+    transform: rotate(-136deg);
+    -webkit-transform: rotate(-136deg);
+}
+.label {
+    position: absolute;
+    left: 20rem;
+    color: rgb(85, 80, 80);
+    font-weight: 500;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.label:hover {
+    cursor: pointer;
+    color: rgb(64, 64, 244);
+}
+
+#label1 {
+    margin-left: 3.1%;
+}
+
+#label2 {
+    margin-left: 11.4%;
+}
+
+#label3 {
+    margin-left: 15.2%;
+}
+
+#label4 {
+    margin-left: 22.3%;
+}
+
+#label5 {
+    margin-left: 27.8%;
+}
+
+#label6 {
+    margin-left: 36.5%;
+}
+
+#label7 {
+    margin-left: 42.3%;
+}

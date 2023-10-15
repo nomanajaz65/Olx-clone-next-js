@@ -1,0 +1,172 @@
+.footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+}
+.mainDiv {
+    background: rgb(235, 238, 239);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.listDivs {
+    height: 24vh;
+    width: 16%;
+    margin-right: 1%;
+}
+
+.listDivs h6 {
+    color: rgb(46, 47, 52);
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+#div1,
+#div2,
+#div3,
+#div4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+#div1 ul,
+#div2 ul,
+#div3 ul,
+#div4 ul {
+    margin-top: 0px;
+}
+
+#div1 li {
+    list-style: none;
+    color: rgb(92, 123, 145);
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 0.7rem;
+    width: 60%;
+    margin-right: 6rem;
+}
+
+#div2 li {
+    list-style: none;
+    color: rgb(92, 123, 145);
+    font-weight: 500;
+    font-size: 0.7rem;
+    margin-top: 0.7rem;
+    width: 60%;
+    margin-right: 7.4rem;
+}
+
+#div3 li {
+    list-style: none;
+    color: rgb(92, 123, 145);
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 0.7rem;
+    width: 70%;
+    margin-right: 7.4rem;
+}
+
+#div3 h6 {
+    margin-right: 6.8rem;
+}
+
+#div4 li {
+    list-style: none;
+    color: rgb(92, 123, 145);
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 0.7rem;
+    width: 45%;
+    margin-right: 13.4rem;
+}
+
+#div4 h6 {
+    margin-right: 12.5rem;
+}
+
+.listDivs li:hover {
+    cursor: pointer;
+}
+
+.linksDiv {
+    height: 24vh;
+    width: 23vw;
+}
+
+.linksDiv label {
+    color: rgb(46, 47, 52);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.linksImgs {
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.iconsDiv {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    height: 20%;
+}
+
+.iconsDiv * {
+    margin-right: 7%;
+}
+
+.appsDiv {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.appsDiv * {
+    margin-right: 5%;
+}
+
+.secDiv {
+    height: 2.6rem;
+    background: rgb(0, 47, 52);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#img1 {
+    max-height: 2.8rem;
+}
+#img2 {
+    max-height: 2.3rem;
+}
+#img3 {
+    max-height: 2.4rem;
+    margin-bottom: 3%;
+}
+
+.label1 {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-right: 2.7%;
+    margin-left: 78%;
+}
+
+.label2 {
+    color: white;
+    font-size: 0.6rem;
+}

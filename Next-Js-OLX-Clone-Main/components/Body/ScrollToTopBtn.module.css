@@ -1,0 +1,14 @@
+.arrowDown {
+
+    border: solid #002f34;
+    border-width: 0 0.11rem 0.11rem 0;
+    display: inline-block;
+    padding: 3%;
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    margin-top: 2%;
+    margin-right: 3%;
+}
+.btn:hover{
+    cursor: pointer;
+}

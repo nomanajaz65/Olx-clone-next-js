@@ -1,0 +1,82 @@
+.grid_item {
+    display: flex;
+    color: black;
+    border: 0.1px solid rgb(210, 218, 219);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.grid_item:hover {
+    cursor: pointer;
+}
+
+.grid_item img {
+    max-height: 50%;
+    min-width: 100%;
+    border-bottom: 0.1px solid rgb(210, 218, 219);
+}
+
+.featured {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.1% 0.1% 0.1% 0.1%;
+    position: absolute;
+    color: black;
+    background: rgba(255, 206, 50);
+    margin-top: 6.3%;
+    margin-left: 0.7%;
+    font-size: 50%;
+    font-weight: 700;
+}
+
+.title {
+    position: absolute;
+    margin-top: 8.6%;
+    margin-left: 0.6%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    width: 18%;
+    color: rgb(34, 32, 32);
+    text-decoration: underline;
+}
+
+.title:hover {
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.grid_item h4 {
+    position: absolute;
+    margin-top: 11.9%;
+    margin-left: 0.6%;
+    text-overflow: ellipsis;
+    width: 15%;
+    color: rgb(34, 32, 32);
+    font-size: 1rem;
+}
+
+.location {
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 0.7%;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    color: rgb(34, 32, 32);
+}
+
+.location:hover {
+    color: rgb(49, 49, 169);
+    cursor: pointer;
+}
+
+.strip {
+    border-radius: 0px 0px 0px 10px;
+    padding: 4% 0.16% 4% 0.16%;
+    position: absolute;
+    color: black;
+    background: rgba(255, 206, 50);
+    margin-top: 8.1%;
+    font-weight: 700;
+}

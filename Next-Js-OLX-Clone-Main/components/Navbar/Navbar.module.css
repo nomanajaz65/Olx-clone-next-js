@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(247, 248, 248);
+    border-left: none;
+    border-right: none;
+    height: 7.9rem;
+    width: 100vw;
+    z-index: 10;
+}
+.ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.logo {
+    position: absolute;
+    left: 3.6rem;
+    top: 0.5rem;
+}
+.logo img {
+    max-height: 3.3rem;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+.motors:hover {
+    cursor: pointer;
+    fill: blue;
+}
+.property:hover {
+    cursor: pointer;
+    fill: blue;
+}
+.motors {
+    margin-left: 9rem;
+    margin-top: 0.3rem;
+}
+.property {
+    margin-top: 0.3rem;
+    margin-left: 11rem;
+}
+.location {
+    position: absolute;
+    margin-top: 3rem;
+    border: 2.2px solid black;
+    height: 3rem;
+    border-radius: 0.3rem;
+    width: 17.4rem;
+    margin-left: 2rem;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.location::placeholder {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.search {
+    position: absolute;
+    margin-top: 3rem;
+    border: 2.3px solid black;
+    height: 3rem;
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
+    width: 48%;
+    margin-left: 22.2%;
+    color: black;
+}
+.search::placeholder{
+    font-size: 0.9rem;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 2.9rem;
+    width: 3.2rem;
+    margin-left: 54.8rem;
+    margin-top: 3rem;
+    border: 0.1px solid black;
+    border-radius: 0px 0.3rem 0.3rem 0px;
+}
+.searchIcon{
+    position: absolute;
+    left: 70.5rem;
+    top: 4.6rem;
+}
+.searchIcon:hover {
+    cursor: pointer;
+}
+.login {
+    position: absolute;
+    left: 75rem;
+    top: 4.2rem;
+    color: rgb(85, 80, 80);
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.login:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.sell {
+    position: absolute;
+    left: 80.4rem;
+    top: 4.5rem;
+    width: 5.1rem;
+}
+.sell * {
+    position: absolute;
+}
+
+.sell:hover {
+    cursor: pointer;
+}
+
+.sellBorder {
+    position: absolute;
+    z-index: 3;
+    max-height: 2.5rem;
+}
+
+.sell h3 {
+    color: rgb(0, 0, 0);
+    z-index: 6;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.userIcon {
+    position: absolute;
+    left: 76.5rem;
+    margin-top: 3.8rem;
+}
+.userIcon:hover {
+    cursor: pointer;
+}
+.userIcon img {
+    max-width: 2rem;
+}
